@@ -35,7 +35,7 @@ await fastify.register(async function (protectedRoutes) {
 
 // Declare a route (igual antes)
 fastify.get("/", async function handler(request, reply) {
-  return `servidor rodando na porta 3000`;
+  return `servidor rodando na porta ${process.env.PORT}`;
 });
 
 // Run the server! (com pequeno ajuste na porta, pra funcionar em produção depois)
