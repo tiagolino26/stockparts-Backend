@@ -299,3 +299,4 @@ const equipRepository = {
 };
 
 export default equipRepository;
+
